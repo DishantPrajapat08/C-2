@@ -15,7 +15,7 @@ int main()
             cout<<"  ";
         }
        
-        for (int j = n; j>i+1; j--)
+        for (int j = n; j>i; j--)
         {
             cout<<num<<" ";
            
