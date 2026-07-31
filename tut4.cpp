@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    int n = 4;
+    int n = 60;
 
     for (int i = 0; i < n; i++)
     {
@@ -43,11 +43,12 @@ int main()
                 cout << " ";
             }
             cout << "*";
-            for (int j = 0; j < 3 - 2 * i; j++)
+            for (int j = 0; j < ((2 * (n - 2))-1) - 2 * i; j++)
             {
-                cout << " ";
+                cout <<" ";
+                
             }
-            cout << "*";
+            cout <<"*";
         }
         cout << endl;
     }
