@@ -43,12 +43,11 @@ int main()
                 cout << " ";
             }
             cout << "*";
-            for (int j = 0; j < ((2 * (n - 2))-1) - 2 * i; j++)
+            for (int j = 0; j < ((2 * (n - 2)) - 1) - 2 * i; j++)
             {
-                cout <<" ";
-                
+                cout << " ";
             }
-            cout <<"*";
+            cout << "*";
         }
         cout << endl;
     }
