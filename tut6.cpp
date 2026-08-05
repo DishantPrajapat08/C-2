@@ -1,3 +1,4 @@
+// Finding factorial
 #include <iostream>
 using namespace std;
 
